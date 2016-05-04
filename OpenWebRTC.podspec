@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "OpenWebRTC.framework/Versions/0.3/Headers/**/*.h"
   s.header_mappings_dir = "OpenWebRTC.framework/Versions/0.3/Headers"
   s.vendored_frameworks = "OpenWebRTC.framework"
-  s.frameworks = "JavaScriptCore", "VideoToolbox", "AssetsLibrary", "CoreVideo", "CoreAudio", "CoreGraphics", "OpenGLES"
+  s.frameworks = "JavaScriptCore", "VideoToolbox"
   #s.libraries = "c++", "iconv", "resolve"
   s.requires_arc = false
 end
