@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.osx.platform = :osx, '10.8'
 
   ## TESTING
-  #s.source       = { :path => "OpenWebRTC.framework" }
-  #s.public_header_files = "OpenWebRTC.framework/**/*.h"
-  #s.vendored_frameworks = "OpenWebRTC.framework"
-  #s.header_mappings_dir = "OpenWebRTC.framework"
+  s.source       = { :path => "OpenWebRTC.framework" }
+  s.public_header_files = "OpenWebRTC.framework/**/*.h"
+  s.vendored_frameworks = "OpenWebRTC.framework"
+  s.header_mappings_dir = "OpenWebRTC.framework"
 
   ## FOR RELEASE
   s.source = { :http => "https://pods.cct.ericsson.net/OpenWebRTC_0.3.95.zip" }
