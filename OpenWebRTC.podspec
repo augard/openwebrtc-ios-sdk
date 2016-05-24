@@ -6,13 +6,14 @@ Pod::Spec.new do |s|
   s.license      = { :type => "BSD-2", :file => "LICENSE" }
   s.author       = { "Ericsson AB" => "labs@ericsson.com" }
   s.social_media_url = "https://twitter.com/OpenWebRTC"
-  s.platform     = :ios, "7.0"
+  s.ios.platform     = :ios, "7.0"
+  s.osx.platform = :osx, '10.8'
 
   ## TESTING
-  #s.source       = { :path => "OpenWebRTC.framework" }
-  #s.public_header_files = "OpenWebRTC.framework/**/*.h"
-  #s.vendored_frameworks = "OpenWebRTC.framework"
-  #s.header_mappings_dir = "OpenWebRTC.framework"
+  s.source       = { :path => "OpenWebRTC.framework" }
+  s.public_header_files = "OpenWebRTC.framework/**/*.h"
+  s.vendored_frameworks = "OpenWebRTC.framework"
+  s.header_mappings_dir = "OpenWebRTC.framework"
 
   ## FOR RELEASE
   s.source = { :http => "http://cl.ly/2n0c0G171D2w/download/OpenWebRTC.framework.zip" }
@@ -20,7 +21,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "OpenWebRTC.framework/Versions/0.3/Headers/**/*.h"
   s.header_mappings_dir = "OpenWebRTC.framework/Versions/0.3/Headers"
   s.vendored_frameworks = "OpenWebRTC.framework"
-  s.frameworks = "JavaScriptCore", "VideoToolbox", "AssetsLibrary", "CoreVideo", "CoreAudio", "CoreGraphics", "OpenGLES"
+  s.frameworks = "JavaScriptCore", "VideoToolbox"
   #s.libraries = "c++", "iconv", "resolve"
   s.requires_arc = false
 end
