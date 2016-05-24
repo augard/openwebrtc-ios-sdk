@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.author       = { "Ericsson AB" => "labs@ericsson.com" }
   s.social_media_url = "https://twitter.com/OpenWebRTC"
   s.platform     = :ios, "7.0"
-  s.source       = {
-    :git => "https://github.com/EricssonResearch/openwebrtc-ios-sdk.git",
-    :tag => "0.4.2"
-  }
+#  s.source       = {
+#    :git => "https://github.com/EricssonResearch/openwebrtc-ios-sdk.git",
+#    :tag => "0.4.2"
+#  }
   s.source_files = "SDK/**/*.{h,m}"
   s.resources = "Resources/**"
   s.dependency 'OpenWebRTC'

@@ -26,7 +26,7 @@
 //  OF SUCH DAMAGE.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
 #import <OpenWebRTC-SDK/OpenWebRTCVideoView.h>
 #import <OpenWebRTC-SDK/OpenWebRTCUtils.h>

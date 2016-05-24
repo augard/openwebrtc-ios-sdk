@@ -26,11 +26,11 @@
 //  OF SUCH DAMAGE.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
 /**
  *  A view that is used to render OpenGL-backed video in OpenWebRTC. 
  */
-@interface OpenWebRTCVideoView : UIView
+@interface OpenWebRTCVideoView : NSView
 
 @end

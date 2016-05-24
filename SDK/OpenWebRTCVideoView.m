@@ -27,12 +27,14 @@
 //
 
 #import "OpenWebRTCVideoView.h"
+#import <Quartz/Quartz.h>
+
 
 @implementation OpenWebRTCVideoView
 
 + (Class)layerClass
 {
-    return [CAEAGLLayer class];
+    return [CALayer class];
 }
 
 @end
